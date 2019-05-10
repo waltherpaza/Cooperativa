@@ -1,0 +1,60 @@
+#caja {background-color: #0AF489; 
+	   padding: 10px;
+	   padding-top: 10px;
+	   margin: 10px;
+	   margin-top: 250px; 
+	   border-radius: 20px
+	  }
+
+p {
+	margin: 20px;
+   }	  
+
+#menu {background-color: #1F0B99;
+	   color:#FFFFFF;
+	   margin: 10px;
+
+
+	   }
+
+#menu li{
+	     list-style-type:none; 
+	     display: inline-block;
+	     padding: 15px;
+         }	   
+
+#menu li:hover{color:#F81010;
+			   background-color: #6E746E} 
+
+#menu li a{
+			text-decoration: none;
+			color:#FFFFFF;
+		  }	
+
+.modelo{width: 200px;
+		height: 200px;
+		background-color: #CE7220;
+		margin: 5px;
+		/*float:left;*/
+		/*-webkit-transition: height .4s;*/
+	}
+
+.caja3{
+		background-color: #B72C2C;
+		position: relative;
+		left: 100px;
+		top: 100px;
+		}		
+
+.padre{
+		width: 200px;
+		height: 200px;
+		background-color: #136D7A;
+		position: absolute;
+	  }			  		           
+
+.hija{width: 100px;
+	  height: 100px;
+	  background-color: #2F8746;
+      position: relative;
+	  }	  

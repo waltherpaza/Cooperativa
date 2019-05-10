@@ -1,0 +1,52 @@
+.padre{	margin:auto;
+		background-color: #D4A664;
+		width: 900px;
+		height: 200px;
+
+		}
+
+.hijo1{	display: inline-block;
+		/*background-color: #CC821B;*/
+		width: 300px;
+		height: 150px;
+		margin: 20px;
+		background-image: url("../img/logo.png");
+		background-size: 200px 150px;
+		background-repeat: no-repeat;
+		background-position: center;
+		}		
+
+.hijo2{	display: inline-block;
+		background-color: #B2721E;
+		width: 500px;
+		height: 150px;
+		margin: 20px;
+		}			
+
+
+#menu {background-color: #1F0B99;
+	   color:#FFFFFF;
+	   margin: 10px;
+	   width: 1800px;
+	   }
+
+#menu li{
+	     list-style-type:none; 
+	     display: inline-block;
+	     padding: 15px;
+         }	   
+
+#menu li:hover{color:#F81010;
+			   background-color: #6E746E} 
+
+#menu li a{
+			text-decoration: none;
+			color:#FFFFFF;
+		  }			
+
+.texto {
+		background-color: #11858F;
+		overflow: scroll;
+		width: 200px;
+		}
+		  
