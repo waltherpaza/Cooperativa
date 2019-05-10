@@ -49,4 +49,39 @@
 		overflow: scroll;
 		width: 200px;
 		}
+
+.txt{background-color:#AEF2D1;
+	 margin:4px;
+	 border-radius: 6px;
+	 width: 150px;
+	 }		
+
+label
+{
+ background: #7AB893;
+ text-align: right;
+ margin: 4px;
+ position: relative;
+ transition: width .35s ease-in-out;
+}	 
 		  
+
+.login 
+{
+  color: #EE0C1C;
+  width: 6em;
+  font-family: arial;
+  font-weight: 100;
+  font-size: 1.05em;
+  border: 1px solid #160977;
+  background: transparent;
+  transition: all 200ms ease-in;
+  border-radius: .65em;
+ }
+
+ input[type=submit]:hover,focus 
+ {
+    background: #fff;
+    color: #160977;
+    border: 2px solid #EE0C1C;
+  }
